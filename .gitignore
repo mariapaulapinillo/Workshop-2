@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -5,6 +6,37 @@ __pycache__/
 
 # C extensions
 *.so
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Airflow / Logs ---
+logs/
+.airflow/
+*.log
+
+# --- Entorno / IDE ---
+.vscode/
+.env
+
+# --- Datos pesados intermedios ---
+data/staging/
+data/*.parquet
+data/output/*.parquet
+data/output/*.xlsx
+data/.ipynb_checkpoints/
+
+# --- Credenciales / secretos ---
+secrets/
+keys/
+service_account.json
+
+# --- Otros ---
+.DS_Store
+Thumbs.db
 
 # Distribution / packaging
 .Python
@@ -205,3 +237,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+﻿# Airflow / Docker / Python
+logs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Datos (sube solo los CSV que te interesen)
+data/output/*.parquet
+data/output/*.xlsx
+data/*.parquet
+
+# Entornos/IDE
+.airflow/
+.vscode/
+.env
+
+# Credenciales
+secrets/
+keys/
+service_account.json
+>>>>>>> 5924034 (Add dags, compose, viz script, EDA, gitignore)
