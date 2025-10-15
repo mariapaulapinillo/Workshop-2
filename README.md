@@ -29,3 +29,8 @@ During the transformation stage (`transform_merge`), the following key steps wer
 - Applied **fuzzy string matching (RapidFuzz ≥90%)** to match artist and song title.  
 - Added a `grammy_nominee = True` flag for matched Grammy entries.  
 - Handled missing values using `fillna("")` or `NaN` depending on data type.
+Diagram #1
+<img width="190" height="981" alt="image" src="https://github.com/user-attachments/assets/760568b4-1b1a-4a99-a525-5f674186cd2a" />
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Diagram #2
+<img width="618" height="217" alt="image" src="https://github.com/user-attachments/assets/c697dd02-d4c3-4909-a781-da1931faaa5a" />
+
