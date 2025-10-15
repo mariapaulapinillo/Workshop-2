@@ -35,12 +35,20 @@ During the transformation stage (`transform_merge`), the following key steps wer
 
 
 #Diagram #1
-<img width="190" height="981" alt="image" src="https://github.com/user-attachments/assets/760568b4-1b1a-4a99-a525-5f674186cd2a" />
+
+
+
+<img width="249" height="1062" alt="image" src="https://github.com/user-attachments/assets/b2cb6418-ee28-4268-9b64-19ada4ec1a3d" />
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
 
 #Diagram #2
+
+
+
+
 <img width="618" height="217" alt="image" src="https://github.com/user-attachments/assets/c697dd02-d4c3-4909-a781-da1931faaa5a" />
 
